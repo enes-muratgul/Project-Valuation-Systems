@@ -1,0 +1,52 @@
+[
+{"type":"header","version":"5.2.1","comment":"Export to JSON plugin for PHPMyAdmin"},
+{"type":"database","name":"gorselprogram"},
+{"type":"table","name":"akademisyenler","database":"gorselprogram","data":
+[
+{"akademik_id":"1","unvan":"Öğr.Gör.","ad_soyad":"Tuğba Altındağ","bolum":"Bilgisayar Mühendisliği","tel_numara":"12345"},
+{"akademik_id":"2","unvan":"Prof. Dr.","ad_soyad":"Celal Şengör","bolum":"Jeoloji Mühendisliği","tel_numara":"555123"},
+{"akademik_id":"3","unvan":"Prof. Dr.","ad_soyad":"Ayşe Yılmaz","bolum":"Bilgisayar Mühendisliği","tel_numara":"5222"},
+{"akademik_id":"5","unvan":"Doç.Dr.","ad_soyad":"Mehmet Kaya","bolum":"Matematik","tel_numara":"5124"},
+{"akademik_id":"6","unvan":"Yrd.Doç.Dr.","ad_soyad":"Fatma Demir","bolum":"Fizik","tel_numara":"5266"}
+]
+}
+,{"type":"table","name":"aradeg","database":"gorselprogram","data":
+[
+
+]
+}
+,{"type":"table","name":"geneltablo","database":"gorselprogram","data":
+[
+{"Proje_ID":"1","ogrenci_no":"1","proje_adi":"1","proje_danismani":"1","ara_notu":"9.00","final_notu":"1.00","Proje_Süresi_YarıYıl":null,"Proje_Kaçıncı_YarıYıl":"1"},
+{"Proje_ID":"2","ogrenci_no":"2","proje_adi":"2","proje_danismani":"2","ara_notu":"0.00","final_notu":"2.00","Proje_Süresi_YarıYıl":null,"Proje_Kaçıncı_YarıYıl":"2"},
+{"Proje_ID":"3","ogrenci_no":"1","proje_adi":"q","proje_danismani":"w","ara_notu":"0.00","final_notu":"15.00","Proje_Süresi_YarıYıl":"2","Proje_Kaçıncı_YarıYıl":"4"},
+{"Proje_ID":"4","ogrenci_no":"22299504","proje_adi":"enes","proje_danismani":"Tuğba Altındağ","ara_notu":"0.00","final_notu":"15.00","Proje_Süresi_YarıYıl":null,"Proje_Kaçıncı_YarıYıl":null},
+{"Proje_ID":"5","ogrenci_no":"22299503","proje_adi":"deneme12","proje_danismani":"Fatma Demir","ara_notu":"11.00","final_notu":"1.00","Proje_Süresi_YarıYıl":null,"Proje_Kaçıncı_YarıYıl":null},
+{"Proje_ID":"6","ogrenci_no":"2","proje_adi":"ENESBA","proje_danismani":"Fatma Demir","ara_notu":"40.00","final_notu":null,"Proje_Süresi_YarıYıl":null,"Proje_Kaçıncı_YarıYıl":null},
+{"Proje_ID":"7","ogrenci_no":"22299503","proje_adi":"asdasd","proje_danismani":"Tuğba Altındağ","ara_notu":"0.00","final_notu":"15.00","Proje_Süresi_YarıYıl":null,"Proje_Kaçıncı_YarıYıl":null},
+{"Proje_ID":"8","ogrenci_no":"22299503","proje_adi":"enesio","proje_danismani":"Tuğba Altındağ","ara_notu":"40.00","final_notu":"60.00","Proje_Süresi_YarıYıl":null,"Proje_Kaçıncı_YarıYıl":null},
+{"Proje_ID":"9","ogrenci_no":"22299503","proje_adi":"enesv","proje_danismani":"Tuğba Altındağ","ara_notu":"8.00","final_notu":"18.00","Proje_Süresi_YarıYıl":null,"Proje_Kaçıncı_YarıYıl":null},
+{"Proje_ID":"10","ogrenci_no":"22299505","proje_adi":"asd","proje_danismani":"Celal Şengör","ara_notu":"1.00","final_notu":null,"Proje_Süresi_YarıYıl":"2023","Proje_Kaçıncı_YarıYıl":"2025"},
+{"Proje_ID":"11","ogrenci_no":"22299503","proje_adi":"enes","proje_danismani":"Tuğba Altındağ","ara_notu":"78.00","final_notu":"18.00","Proje_Süresi_YarıYıl":"2025-Bahar","Proje_Kaçıncı_YarıYıl":"2024-Bahar"},
+{"Proje_ID":"25","ogrenci_no":"22299505","proje_adi":"proje","proje_danismani":"Tuğba Altındağ","ara_notu":"1.00","final_notu":"15.00","Proje_Süresi_YarıYıl":"2023-BAHAR","Proje_Kaçıncı_YarıYıl":"2023-BAHAR"}
+]
+}
+,{"type":"table","name":"kullanicilar","database":"gorselprogram","data":
+[
+{"ID":"1","Email":"taltindag@baskent.edu.tr","Sifre":"123456","Unvan":"Öğr.Gör."},
+{"ID":"2","Email":"enesmuratgul@gmail.com","Sifre":"123123","Unvan":"Admin"}
+]
+}
+,{"type":"table","name":"ogrenciler","database":"gorselprogram","data":
+[
+{"egitim_ogretim_donemi":"2023-2024 Bahar","ogrenci_id":"1","ogrenci_no":"22299503","ogrenci_ad_soyad":"Enes Muratgül"},
+{"egitim_ogretim_donemi":"2023-2024 Bahar","ogrenci_id":"2","ogrenci_no":"22299504","ogrenci_ad_soyad":"Mehmet Akif"},
+{"egitim_ogretim_donemi":"2023-2023 Bahar","ogrenci_id":"3","ogrenci_no":"22299505","ogrenci_ad_soyad":"Fatma Ceylan"}
+]
+}
+,{"type":"table","name":"ogrenciler2","database":"gorselprogram","data":
+[
+
+]
+}
+]
